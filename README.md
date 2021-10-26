@@ -1,7 +1,7 @@
 # terminal-url-shortener
-Shorten URLs using is.gd or v.gd from your Terminal
+Shorten URLs using is.gd or v.gd from your Terminal.
 # Usage
-Pass URLs to shorten as 1 URL per argument. If multiple URLs are passed, it will go in order of arguments.
+Pass URLs to shorten as 1 URL per argument. If multiple URLs are passed, it will go in order of arguments. If -vgd is passed, it will use v.gd instead of is.gd.
 # Building
 To build, use `git clone https://github.com/GameParrot/terminal-url-shortener.git
 cd terminal-url-shortener
