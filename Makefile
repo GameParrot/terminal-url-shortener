@@ -1,5 +1,3 @@
-prefix ?= /usr/local
-bindir = $(prefix)/bin
 all:
 	swiftc urlshorten.swift -o urlshorten
 macintel:
