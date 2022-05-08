@@ -3,9 +3,7 @@ Shorten URLs using is.gd or v.gd from your Terminal.
 # Usage
 Pass URLs to shorten as 1 URL per argument. If multiple URLs are passed, it will go in order of arguments. If -vgd is passed, it will use v.gd instead of is.gd.
 # Building
-To build, use `git clone https://github.com/GameParrot/terminal-url-shortener.git
-cd terminal-url-shortener
-make`
+To build, use `git clone https://github.com/GameParrot/terminal-url-shortener.git ; cd terminal-url-shortener ; make`
 # Linux
 The Linux zip in Releases includes Swift libraries that are required to run the program, a bash script for starting, and the binary. Start it with the urlshorten bash script so the LD_LIBRARY_PATH is set correctly.
 # macOS
